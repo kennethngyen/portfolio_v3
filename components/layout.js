@@ -5,8 +5,8 @@ export default function Layout({ children }) {
   return (
     <div className="w-screen h-screen border-2">
       <Navbar />
-      <main className="h-full">{children}</main>
-      <Footer />
+      <main className="">{children}</main>
+      {/* <Footer /> */}
     </div>
   );
 }
